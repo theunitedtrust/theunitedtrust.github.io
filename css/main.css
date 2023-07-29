@@ -2046,27 +2046,29 @@ nav a:hover{
     opacity:.8
 }
 .single-vol .content-details{
-    position:absolute;
+        padding:1em;
+    border:1px solid #eaeaea;
+    /*position:absolute;
     text-align:center;
     padding-left:1em;
     padding-right:1em;
     width:100%;
     top:50%;
     left:50%;
-    opacity:0;
+    opacity:1;
     -webkit-transform:translate(-50%, -50%);
     -moz-transform:translate(-50%, -50%);
     transform:translate(-50%, -50%);
     -webkit-transition:all 0.3s ease-in-out 0s;
     -moz-transition:all 0.3s ease-in-out 0s;
-    transition:all 0.3s ease-in-out 0s
+    transition:all 0.3s ease-in-out 0s*/
 }
 .single-vol .content-details h4{
-    color:#fff
+    color:#000
 }
 .single-vol .content-title{
     font-size:18px;
-    color:#fff;
+    color:#000;
     font-weight:500
 }
 .single-vol .content:hover .content-details{
@@ -2075,7 +2077,7 @@ nav a:hover{
     opacity:1
 }
 .single-vol .content-details p{
-    color:#fff;
+    color:#000;
     font-size:0.8em
 }
 .single-vol .fadeIn-bottom{
