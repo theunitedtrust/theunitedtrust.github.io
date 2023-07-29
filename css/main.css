@@ -2009,7 +2009,7 @@ nav a:hover{
 }
 .single-vol .content{
     position:relative;
-    max-width:400px;
+    /*max-width:400px;*/
     margin:auto;
     overflow:hidden
 }
@@ -2048,6 +2048,9 @@ nav a:hover{
 .single-vol .content-details{
         padding:1em;
     border:1px solid #eaeaea;
+    margin-bottom:20px;
+    background-color:#FCFCFC;
+    width:100%;
     /*position:absolute;
     text-align:center;
     padding-left:1em;
@@ -2064,7 +2067,10 @@ nav a:hover{
     transition:all 0.3s ease-in-out 0s*/
 }
 .single-vol .content-details h4{
-    color:#000
+    color:#4d4d4d;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size:16px
 }
 .single-vol .content-title{
     font-size:18px;
@@ -2077,8 +2083,9 @@ nav a:hover{
     opacity:1
 }
 .single-vol .content-details p{
-    color:#000;
-    font-size:0.8em
+    color:#4d4d4d;
+    font-size:0.8em;
+    margin-bottom:0px;
 }
 .single-vol .fadeIn-bottom{
     top:80%
