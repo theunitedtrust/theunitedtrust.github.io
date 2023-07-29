@@ -2092,8 +2092,10 @@ nav a:hover{
 }
 @media (max-width: 768px){
     .single-vol{
-        margin-bottom:30px
+        margin-bottom:-1px
     }
+    .single-vol .content-details{
+    margin-bottom:0px;
 }
 .donate-area{
     background:url(../img/header-bg.jpg) no-repeat center center fixed;
