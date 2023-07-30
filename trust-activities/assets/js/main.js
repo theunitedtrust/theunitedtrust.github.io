@@ -152,7 +152,7 @@ var main = (function($) { var _ = {
 						'<div class="nav-next"></div>' +
 						'<div class="nav-previous"></div>' +
 						'<div class="toggle"></div>' +
-                        '<div class="back" style="position: absolute;top: 20px;left:20px;"><a href="https://theunitedtrust.in/" style="font-size: 18px;color: #fff;padding: 20px;text-decoration: none;">Back</a></div>' +
+                        '<div style="position: absolute;top: 20px;left:20px;"><a href="https://theunitedtrust.in/" style="font-size: 18px;color: #fff;padding: 20px;text-decoration: none;    background-image:-moz-linear-gradient(0deg, #0096EB 0%, #49B8CF 55%, #1BD0BA 100%);background-image:-webkit-linear-gradient(0deg, #0096EB 0%, #49B8CF 55%, #1BD0BA 100%);background-image:-ms-linear-gradient(0deg, #0096EB 0%, #49B8CF 55%, #1BD0BA 100%)">Back to United Trust</a></div>' +
 					'</div>' +
 				'</div>'
 			).appendTo(_.$body);

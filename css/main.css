@@ -1553,11 +1553,11 @@ nav{
         background:#fff
     }
     nav a{
-        color:#f41665 !important;
+        color:darkslateblue !important;
         border-bottom: 1px solid #EAEAEA;
     }
     nav a:hover{
-        color:#f41665;
+        color:darkslateblue;
     }
 }
 nav.hide{
@@ -1573,11 +1573,12 @@ nav a{
 }
 @media (max-width: 767px){
     nav a{
-        margin:5px 25px
+        margin:5px 25px;
+        min-width: 120px;
     }
 }
 nav a:hover{
-    color:#f41665
+    color:darkslateblue
 }
 .section-gap{
     padding:120px 0
@@ -1934,6 +1935,12 @@ nav a:hover{
     margin-bottom:25px;
     color: #fff
 }
+.about-area h6{
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px;
+    color: #eaeaea;
+}
 .about-right{
     padding-right:20%;
     padding-left:5%
@@ -2152,50 +2159,8 @@ nav a:hover{
 .donate-area p{
     color:#ccc;
 }
-.footer-area{
-    background-color:#fff;
-    color:#222;
-    text-align:center
-}
-.footer-menu{
-    margin-bottom:30px
-}
-.footer-menu li{
-    display:inline-block
-}
-.footer-menu li a{
-    color:#222;
-    font-weight:600;
-    text-transform:uppercase;
-    padding:30px
-}
-.footer-menu li a:hover{
-    color:#f41665
-}
-@media (max-width: 414px){
-    .footer-menu{
-        padding:15px
-    }
-}
-.footer-social{
-    padding-bottom:30px
-}
-.footer-social a{
-    padding:15px
-}
-.footer-social a i{
-    color:#ccc;
-    -webkit-transition:all 0.3s ease 0s;
-    -moz-transition:all 0.3s ease 0s;
-    -o-transition:all 0.3s ease 0s;
-    transition:all 0.3s ease 0s
-}
-.footer-social a i:hover{
-    color:#f41665
-}
-.footer-text a,.footer-text i{
-    color:#f41665
-}
+
+
 .borderline{
     height:1px; opacity: .1;width: 100%;padding:20px 0;
 }
