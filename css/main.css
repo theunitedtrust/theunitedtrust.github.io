@@ -1557,7 +1557,7 @@ nav{
         border-bottom: 1px solid #EAEAEA;
     }
     nav a:hover{
-        color:#f41665
+        color:#f41665;
     }
 }
 nav.hide{
