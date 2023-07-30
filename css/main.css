@@ -81,7 +81,8 @@ h1,h2,h3,h4,h5,h6{
     line-height:1.2em !important;
     margin-bottom:0;
     margin-top:0;
-    font-weight:600
+    font-weight:600;
+    text-transform: uppercase;
 }
 .h1,.h2,.h3,.h4,.h5,.h6{
     margin-bottom:0;
@@ -107,7 +108,7 @@ h5,.h5{
 }
 h6,.h6{
     font-size:14px;
-    color:#222
+    color:#eaeaea
 }
 td,th{
     border-radius:0px
@@ -1553,11 +1554,11 @@ nav{
         background:#fff
     }
     nav a{
-        color:darkslateblue !important;
+        color:darkcyan !important;
         border-bottom: 1px solid #EAEAEA;
     }
     nav a:hover{
-        color:darkslateblue;
+        color:darkcyan;
     }
 }
 nav.hide{
@@ -1574,11 +1575,11 @@ nav a{
 @media (max-width: 767px){
     nav a{
         margin:5px 25px;
-        min-width: 120px;
+        min-width: 140px;
     }
 }
 nav a:hover{
-    color:darkslateblue
+    color:darkcyan
 }
 .section-gap{
     padding:120px 0
@@ -1936,10 +1937,10 @@ nav a:hover{
     color: #fff
 }
 .about-area h6{
-    text-transform: uppercase;
+    
     font-weight: 100;
     font-size: 12px;
-    color: #eaeaea;
+    
 }
 .about-right{
     padding-right:20%;
